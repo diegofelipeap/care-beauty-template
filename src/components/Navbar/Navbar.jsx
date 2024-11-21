@@ -17,7 +17,7 @@ const Navbar = () => {
     return (
         <>
             <NavbarContainer>
-                <Logo src="src/assets/logo_clinic.png" alt="Logo da clínica" />
+                <Logo src="/logo_clinic.png" alt="Logo da clínica" />
                 <BurgerButton onClick={handleMenuToggle} menuOpen={menuOpen}>
                     <div />
                     <div />

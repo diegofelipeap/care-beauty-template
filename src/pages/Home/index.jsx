@@ -15,17 +15,17 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const HomePage = () => {
   const carouselImagesHome = [
-    "src/assets/caroussel01.jpg",
-    "src/assets/caroussel02.jpg",
-    "src/assets/caroussel03.jpg",
-    "src/assets/caroussel04.jpg",
+    "/caroussel01.jpg",
+    "/caroussel02.jpg",
+    "/caroussel03.jpg",
+    "/caroussel04.jpg",
   ];
 
   const carouselImagesServices = [
-    { src: "src/assets/SECOND_slider01.jpg", alt: "Maquiagem Profissional" },
-    { src: "src/assets/SECOND_slider02.jpg", alt: "Design de Sobrancelhas" },
-    { src: "src/assets/SECOND_slider03.jpg", alt: "Depilação" },
-    { src: "src/assets/SECOND_slider04.jpg", alt: "PMU" },
+    { src: "/SECOND_slider01.jpg", alt: "Maquiagem Profissional" },
+    { src: "/SECOND_slider02.jpg", alt: "Design de Sobrancelhas" },
+    { src: "/SECOND_slider03.jpg", alt: "Depilação" },
+    { src: "/SECOND_slider04.jpg", alt: "PMU" },
   ];
 
   const sliderSettings = {
